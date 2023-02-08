@@ -26,11 +26,7 @@ mongoose.connect(CONNECTION_STRING, () => {
   console.log("Connected to MongoDB");
 });
 
-// mongoose.connect('mongodb+srv://userblog:Maximus_2017@cluster0.k4aimmf.mongodb.net/test');
 const db = mongoose.connection;
-//console.log('MONGODB: ==== ', db)
-
-
 db.on('error', console.error.bind(console, 'connection error:'));
 
 app.use(logger('dev'));
