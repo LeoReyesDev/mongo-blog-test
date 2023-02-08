@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon ./bin/www",
     "start": "node ./bin/www",
-    "build-client": "cd ./client && yarn build"
+    "build-client": "cd ./client && yarn build",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
