@@ -7,7 +7,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const connectionDB = require('dotenv').config()
 
-const CONNECTION_STRING = process.env.CONNECTION_STRING;
+//const CONNECTION_STRING = process.env.CONNECTION_STRING;
+const CONNECTION_STRING = 'mongodb+srv://userblog:Maximus_2017@cluster0.k4aimmf.mongodb.net/mongo-blog-db'
 //console.log(`Connecting to ======: ${CONNECTION_STRING}`);
 
 const indexRouter = require('./routes/index');
