@@ -1,6 +1,7 @@
 {
   "name": "mongo-blog",
   "version": "0.0.0",
+  "homepage": "https://mern-blog-sample.netlify.app",
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
