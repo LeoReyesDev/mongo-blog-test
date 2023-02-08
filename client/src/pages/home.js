@@ -27,6 +27,7 @@ const Home = () => {
                 />
                 <h2 className="text-center">Welcome to the Digital Marketing blog</h2>
             </Container>
+            <h4>Cara de verga</h4>
             <Container style={{ maxWidth: '800px' }}>
                 <ListGroup variant="flush" as="ol">
                     {
