@@ -3,7 +3,7 @@ const router = express.Router();
 const Post = require('../models/post');
 
 /* GET posts */
-router.get('/', async (req, res, next) => {
+router.get('https://mern-blog-sample.netlify.app/', async (req, res, next) => {
     const posts = await Post.find().sort({ createdAt: 'desc' });
     return res.status(200).json({
         statusCode: 200,

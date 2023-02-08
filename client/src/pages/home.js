@@ -10,7 +10,7 @@ const Home = () => {
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         async function fetchData() {
-            const { data } = await http.get('/api/posts');
+            const { data } = await http.get('https://mern-blog-sample.netlify.app/api/posts');
             setPosts(data.data.posts);
         }
         fetchData();
