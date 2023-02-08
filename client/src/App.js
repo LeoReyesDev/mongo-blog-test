@@ -22,10 +22,10 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/posts/:id" element={<Post />} />
-        <Route path="/posts/new" element={<Create />} />
-        <Route path="/posts/:id/edit" element={<Edit />} />
+        <Route path="https://mern-blog-sample.netlify.app/" element={<Home />} />
+        <Route path="https://mern-blog-sample.netlify.app/posts/:id" element={<Post />} />
+        <Route path="https://mern-blog-sample.netlify.app/posts/new" element={<Create />} />
+        <Route path="https://mern-blog-sample.netlify.app/posts/:id/edit" element={<Edit />} />
       </Routes>
     </>
   );
