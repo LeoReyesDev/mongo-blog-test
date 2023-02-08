@@ -25,7 +25,7 @@ const Home = () => {
                     style={{ borderRadius: '50%' }}
                     className="d-block mx-auto img-fluid"
                 />
-                <h2 className="text-center">Welcome to the Digital Marketing blog</h2>
+                <h2 className="text-center">Welcome Max Coder blog!</h2>
             </Container>
             <Container style={{ maxWidth: '800px' }}>
                 <ListGroup variant="flush" as="ol">
