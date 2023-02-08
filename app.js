@@ -22,7 +22,7 @@ app.set('view engine', 'jade');
 // setup connection to mongo
 
 mongoose.set("strictQuery", false);
-mongoose.connect(process.env.CONNECTION_STRING, () => {
+mongoose.connect(CONNECTION_STRING, () => {
   console.log("Connected to MongoDB");
 });
 
