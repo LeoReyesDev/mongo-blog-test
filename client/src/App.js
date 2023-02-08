@@ -17,7 +17,7 @@ function App() {
           <Navbar.Brand href="/">My Blog!</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav className="me-auto">
-            <Nav.Link href="/posts/new">New</Nav.Link>
+            <Nav.Link href="https://mern-blog-sample.netlify.app/posts/new">New</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
