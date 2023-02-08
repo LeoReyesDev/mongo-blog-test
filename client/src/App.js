@@ -14,18 +14,18 @@ function App() {
     <>
       <Navbar bg="dark" expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="https://mern-blog-sample.netlify.app/">Maximus Blog!</Navbar.Brand>
+          <Navbar.Brand href="/">My Blog!</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav className="me-auto">
-            <Nav.Link href="https://mern-blog-sample.netlify.app/posts/new">New Post</Nav.Link>
+            <Nav.Link href="/posts/new">New</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       <Routes>
-        <Route path="https://mern-blog-sample.netlify.app/" element={<Home />} />
-        <Route path="https://mern-blog-sample.netlify.app/posts/:id" element={<Post />} />
-        <Route path="https://mern-blog-sample.netlify.app/posts/new" element={<Create />} />
-        <Route path="https://mern-blog-sample.netlify.app/posts/:id/edit" element={<Edit />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/posts/:id" element={<Post />} />
+        <Route path="/posts/new" element={<Create />} />
+        <Route path="/posts/:id/edit" element={<Edit />} />
       </Routes>
     </>
   );
