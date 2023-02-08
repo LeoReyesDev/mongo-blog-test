@@ -41,11 +41,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
-app.use('/', indexRouter);
-app.use('/api/posts', postsRouter);
+app.use('https://mern-blog-sample.netlify.app', indexRouter);
+app.use('https://mern-blog-sample.netlify.app/api/posts', postsRouter);
 
 // Return the client
-app.get('/posts*', (_, res) => {
+app.get('https://mern-blog-sample.netlify.app/posts*', (_, res) => {
   res.sendFile(path.join(__dirname, 'public') + '/index.html');
 });
 
